@@ -1,9 +1,5 @@
-<img width="1920" height="8150" alt="Home Page" src="https://github.com/user-attachments/assets/428375c8-aad2-400a-9518-34691650fcb8" />
-<p align="center">
-  <a href="https://laravel.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo">
-  </a>
-</p>
+<img width="813" height="858" alt="image" src="https://github.com/user-attachments/assets/3d74deb4-9bde-4ee8-8a45-5b196e49daee" />
+
 
 # Student Counseling System
 
