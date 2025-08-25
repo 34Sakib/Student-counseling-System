@@ -1,4 +1,5 @@
-<img width="813" height="858" alt="image" src="https://github.com/user-attachments/assets/3d74deb4-9bde-4ee8-8a45-5b196e49daee" />
+<img width="1883" height="755" alt="image" src="https://github.com/user-attachments/assets/1d4fc294-3c94-4250-b0e9-29b6fe20ad01" />
+
 
 
 # Student Counseling System
