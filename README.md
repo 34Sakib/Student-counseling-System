@@ -1,44 +1,79 @@
 <p align="center">
   <a href="https://laravel.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="300" alt="Laravel Logo">
+    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo">
   </a>
 </p>
 
-<h1 align="center">Student Counseling System</h1>
+# Student Counseling System
 
-<p align="center">
-  A web application for managing student counseling sessions, built with Laravel.
-</p>
+A web-based application for managing student counseling sessions, built with [Laravel](https://laravel.com/).
 
----
+## Features
 
-## 🔹 About the Project
+- Student registration and management
+- Counselor assignment
+- Session scheduling and tracking
+- Notes and feedback for each session
+- Secure authentication for students and counselors
 
-Student Counseling System helps universities and institutions manage student counseling efficiently. Students can book counseling sessions, view destinations, and track their profiles. Admins can manage bookings, counselors, and view analytics.
+## Requirements
 
-**Key Features:**
+- PHP >= 8.1
+- Composer
+- MySQL or compatible database
+- Node.js & npm (for frontend assets)
 
-- Student registration and profile management  
-- Booking counseling sessions  
-- Viewing destinations and services  
-- Admin dashboard for managing users, counselors, and bookings  
-- Responsive UI for desktop and mobile  
-- Built with **Laravel**, **Blade**, **MySQL**, and **Bootstrap**  
-
----
-
-## 🛠 Tech Stack
-
-- **Backend:** Laravel 10  
-- **Frontend:** Blade Templates, HTML, CSS, Bootstrap  
-- **Database:** MySQL  
-- **Version Control:** Git & GitHub  
-
----
-
-## ⚡ Installation / Setup
+## Installation
 
 1. **Clone the repository:**
-```bash
-git clone https://github.com/34Sakib/Student-counseling-System.git
-cd Student-counseling-System
+   ```sh
+   git clone https://github.com/yourusername/student-counseling-system.git
+   cd student-counseling-system
+   ```
+
+2. **Install dependencies:**
+   ```sh
+   composer install
+   npm install
+   ```
+
+3. **Copy `.env` and set up environment variables:**
+   ```sh
+   cp .env.example .env
+   ```
+   - Set your database credentials in `.env`.
+
+4. **Generate application key:**
+   ```sh
+   php artisan key:generate
+   ```
+
+5. **Run migrations:**
+   ```sh
+   php artisan migrate
+   ```
+
+6. **Build frontend assets:**
+   ```sh
+   npm run dev
+   ```
+
+7. **Start the development server:**
+   ```sh
+   php artisan serve
+   ```
+
+## Usage
+
+- Access the app at `http://localhost:8000`
+- Register as a student or counselor and begin managing sessions
+
+## Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+This project is open-sourced under the [MIT license](https://opensource.org/licenses/MIT).
+
+---
