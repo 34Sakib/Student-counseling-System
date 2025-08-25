@@ -1,0 +1,122 @@
+/* Profile Sidebar */
+.profile-sidebar {
+    width: 90px;
+    min-width: 90px;
+}
+
+.dashboard-active {
+    color: #0d6efd !important;
+    background-color: rgba(13, 110, 253, 0.1);
+    border-radius: 8px;
+    padding: 10px 5px !important;
+}
+
+.dashboard-inactive {
+    color: #6c757d !important;
+    padding: 10px 5px !important;
+}
+
+.dashboard-inactive:hover {
+    color: #0d6efd !important;
+    background-color: rgba(13, 110, 253, 0.05);
+    border-radius: 8px;
+}
+
+/* Course Cards */
+.course-card {
+    transition: transform 0.2s;
+    height: 100%;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+}
+
+.heart-icon {
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.heart-icon:hover {
+    color: #dc3545 !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991.98px) {
+    .profile-sidebar {
+        width: 100%;
+        min-width: 100%;
+        height: auto;
+    }
+    
+    .offcanvas.offcanvas-start {
+        width: 280px;
+    }
+}
+
+/* Custom styles for the main content */
+.main-content {
+    min-height: 100vh;
+    padding: 2rem 0;
+}
+
+/* Pagination styling */
+.pagination .page-link {
+    color: #0d6efd;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+/* Search and filter section */
+.search-filter-section {
+    margin-bottom: 2rem;
+}
+
+/* Card hover effect */
+.card {
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0,0,0,0.125);
+}
+
+.card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* Badge styling */
+.badge {
+    font-weight: 500;
+    padding: 0.4em 0.8em;
+}
+
+/* Tooltip customization */
+.tooltip {
+    font-size: 0.875rem;
+}
+
+/* Alert message */
+.alert {
+    border: none;
+    border-radius: 0.5rem;
+}
+
+/* Responsive text for course titles */
+.card-title {
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+}
+
+/* Star rating */
+.rating {
+    color: #ffc107;
+}
+
+/* Course category badges */
+.badge.bg-success { background-color: #198754 !important; }
+.badge.bg-info { background-color: #0dcaf0 !important; }
+.badge.bg-warning { color: #212529 !important; }
+.badge.bg-danger { background-color: #dc3545 !important; }
+.badge.bg-primary { background-color: #0d6efd !important; }
+.badge.bg-secondary { background-color: #6c757d !important; }
